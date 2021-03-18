@@ -13,10 +13,19 @@ page 10865 "Payment Status"
             repeater(Control1)
             {
                 ShowCaption = false;
+                field(Line; Rec.Line)
+                {
+                    ApplicationArea = All;
+                }
                 field(Name; Name)
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies text to describe the payment status.';
+                }
+
+                field("Payment Class"; Rec."Payment Class")
+                {
+                    ApplicationArea = All;
                 }
                 field(RIB; RIB)
                 {
