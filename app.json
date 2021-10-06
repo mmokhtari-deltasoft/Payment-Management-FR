@@ -35,6 +35,5 @@
   "target": "OnPrem",
   "features": ["TranslationFile","GenerateCaptions"]
 
-  //^mm
 
 }
